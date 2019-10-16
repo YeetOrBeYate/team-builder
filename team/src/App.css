@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.cardHolder{
+  border: 2px solid black;
+}
+
+.card{
+  border: 1px solid gray;
+  width: 20%;
+  margin: 1%;
+}
