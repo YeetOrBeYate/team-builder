@@ -2,7 +2,6 @@ import React from "react";
 
 const FormRender = (props) =>{
     const people = props.people;
-    const yeet = []
     return(
     <div className = "cardHolder">
             {people.map((person,index)=>(

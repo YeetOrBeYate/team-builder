@@ -8,9 +8,16 @@ function App() {
 
   const [people,setPeople] = useState(Data);
 
+  function addPeople(person){
+    setPeople([...people, person]);
+  }
+
+  console.log('from app', {...people})
+  console.log(people)
+
   return (
     <div className="App">
-      <Form></Form>
+      <Form funct = {addPeople}></Form>
       <FormRender people = {people}></FormRender>
     </div>
   );
